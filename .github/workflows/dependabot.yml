@@ -6,5 +6,5 @@ permissions: write-all
 
 jobs:
   dependabot_merge:
-   uses: sipgate-io/dependabot-automerge/.github/workflows/dependabot_automerge.yml@main
-   secrets: inherit
+    uses: sipgate-io/dependabot-automerge/.github/workflows/dependabot_automerge.yml@main
+    secrets: inherit
